@@ -123,16 +123,6 @@ public class JFEmpresas extends javax.swing.JFrame {
         jLabel12.setForeground(new java.awt.Color(0, 153, 255));
         jLabel12.setText("Tipo de Atividade");
 
-        jTextField1.setText("jTextField1");
-
-        jTextField2.setText("jTextField1");
-
-        jTextField3.setText("jTextField1");
-
-        jTextField4.setText("jTextField1");
-
-        jTextField5.setText("jTextField1");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
