@@ -1,3 +1,5 @@
+package br.com.logicabrasilsi.form;
+
 
 import javax.swing.JFrame;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;  
