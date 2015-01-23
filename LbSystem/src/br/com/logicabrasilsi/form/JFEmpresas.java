@@ -69,12 +69,12 @@ public class JFEmpresas extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         Bpesquesar = new javax.swing.JButton();
         Balterar = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
+        BGravar = new javax.swing.JButton();
+        BNovo = new javax.swing.JButton();
+        BFim = new javax.swing.JButton();
+        BProximo = new javax.swing.JButton();
+        BAnterior = new javax.swing.JButton();
+        BInicio = new javax.swing.JButton();
         Bdeletar = new javax.swing.JButton();
         Bsair = new javax.swing.JButton();
 
@@ -226,34 +226,34 @@ public class JFEmpresas extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Gravar");
-        jButton3.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton3.setMinimumSize(new java.awt.Dimension(92, 26));
+        BGravar.setText("Gravar");
+        BGravar.setMaximumSize(new java.awt.Dimension(92, 26));
+        BGravar.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        jButton4.setText("Novo");
-        jButton4.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton4.setMinimumSize(new java.awt.Dimension(92, 26));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        BNovo.setText("Novo");
+        BNovo.setMaximumSize(new java.awt.Dimension(92, 26));
+        BNovo.setMinimumSize(new java.awt.Dimension(92, 26));
+        BNovo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                BNovoActionPerformed(evt);
             }
         });
 
-        jButton5.setText("Fim");
-        jButton5.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton5.setMinimumSize(new java.awt.Dimension(92, 26));
+        BFim.setText("Fim");
+        BFim.setMaximumSize(new java.awt.Dimension(92, 26));
+        BFim.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        jButton6.setText("Próximo");
-        jButton6.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton6.setMinimumSize(new java.awt.Dimension(92, 26));
+        BProximo.setText("Próximo");
+        BProximo.setMaximumSize(new java.awt.Dimension(92, 26));
+        BProximo.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        jButton7.setText("Anterior");
-        jButton7.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton7.setMinimumSize(new java.awt.Dimension(92, 26));
+        BAnterior.setText("Anterior");
+        BAnterior.setMaximumSize(new java.awt.Dimension(92, 26));
+        BAnterior.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        jButton8.setText("Início");
-        jButton8.setMaximumSize(new java.awt.Dimension(92, 26));
-        jButton8.setMinimumSize(new java.awt.Dimension(92, 26));
+        BInicio.setText("Início");
+        BInicio.setMaximumSize(new java.awt.Dimension(92, 26));
+        BInicio.setMinimumSize(new java.awt.Dimension(92, 26));
 
         Bdeletar.setText("Deletar");
         Bdeletar.setMaximumSize(new java.awt.Dimension(92, 26));
@@ -274,17 +274,17 @@ public class JFEmpresas extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BInicio, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BAnterior, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BProximo, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BFim, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(95, 95, 95)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BNovo, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BGravar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Balterar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -300,12 +300,12 @@ public class JFEmpresas extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BAnterior, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BInicio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BProximo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BFim, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BNovo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BGravar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Balterar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Bpesquesar)
                     .addComponent(Bdeletar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -359,9 +359,9 @@ public class JFEmpresas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_BalterarActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void BNovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BNovoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_BNovoActionPerformed
 
     private void BpesquesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BpesquesarActionPerformed
         // TODO add your handling code here:
@@ -420,16 +420,16 @@ public class JFEmpresas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BAnterior;
+    private javax.swing.JButton BFim;
+    private javax.swing.JButton BGravar;
+    private javax.swing.JButton BInicio;
+    private javax.swing.JButton BNovo;
+    private javax.swing.JButton BProximo;
     private javax.swing.JButton Balterar;
     private javax.swing.JButton Bdeletar;
     private javax.swing.JButton Bpesquesar;
     private javax.swing.JButton Bsair;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
