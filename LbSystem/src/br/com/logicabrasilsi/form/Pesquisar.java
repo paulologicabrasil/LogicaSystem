@@ -55,7 +55,6 @@ public class Pesquisar extends javax.swing.JPanel {
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 
-    public static  void  mains 
 
 
 }

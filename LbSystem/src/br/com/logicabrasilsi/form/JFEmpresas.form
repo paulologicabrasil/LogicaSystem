@@ -406,13 +406,13 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="BGravar" min="-2" pref="92" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Balterar" min="-2" pref="92" max="-2" attributes="0"/>
+                  <Component id="BAlterar" min="-2" pref="92" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Bpesquesar" min="-2" pref="92" max="-2" attributes="0"/>
+                  <Component id="BPesquesar" min="-2" pref="92" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="Bdeletar" min="-2" pref="92" max="-2" attributes="0"/>
+                  <Component id="BDeletar" min="-2" pref="92" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-                  <Component id="Bsair" min="-2" pref="92" max="-2" attributes="0"/>
+                  <Component id="BSair" min="-2" pref="92" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -428,10 +428,10 @@
                       <Component id="BFim" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="BNovo" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="BGravar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Balterar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Bpesquesar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Bdeletar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Bsair" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BPesquesar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BDeletar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BSair" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -439,15 +439,15 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="Bpesquesar">
+        <Component class="javax.swing.JButton" name="BPesquesar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Pesquisar"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BpesquesarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BPesquesarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="Balterar">
+        <Component class="javax.swing.JButton" name="BAlterar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Alterar"/>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -458,7 +458,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BalterarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BAlterarActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BGravar">
@@ -530,7 +530,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="Bdeletar">
+        <Component class="javax.swing.JButton" name="BDeletar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Deletar"/>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -541,7 +541,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="Bsair">
+        <Component class="javax.swing.JButton" name="BSair">
           <Properties>
             <Property name="text" type="java.lang.String" value="Sair"/>
             <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -552,7 +552,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BsairActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BSairActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

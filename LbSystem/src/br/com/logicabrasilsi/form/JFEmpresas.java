@@ -67,16 +67,16 @@ public class JFEmpresas extends javax.swing.JFrame {
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
-        Bpesquesar = new javax.swing.JButton();
-        Balterar = new javax.swing.JButton();
+        BPesquesar = new javax.swing.JButton();
+        BAlterar = new javax.swing.JButton();
         BGravar = new javax.swing.JButton();
         BNovo = new javax.swing.JButton();
         BFim = new javax.swing.JButton();
         BProximo = new javax.swing.JButton();
         BAnterior = new javax.swing.JButton();
         BInicio = new javax.swing.JButton();
-        Bdeletar = new javax.swing.JButton();
-        Bsair = new javax.swing.JButton();
+        BDeletar = new javax.swing.JButton();
+        BSair = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -210,19 +210,19 @@ public class JFEmpresas extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 255)));
         jPanel2.setForeground(new java.awt.Color(255, 204, 51));
 
-        Bpesquesar.setText("Pesquisar");
-        Bpesquesar.addActionListener(new java.awt.event.ActionListener() {
+        BPesquesar.setText("Pesquisar");
+        BPesquesar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BpesquesarActionPerformed(evt);
+                BPesquesarActionPerformed(evt);
             }
         });
 
-        Balterar.setText("Alterar");
-        Balterar.setMaximumSize(new java.awt.Dimension(92, 26));
-        Balterar.setMinimumSize(new java.awt.Dimension(92, 26));
-        Balterar.addActionListener(new java.awt.event.ActionListener() {
+        BAlterar.setText("Alterar");
+        BAlterar.setMaximumSize(new java.awt.Dimension(92, 26));
+        BAlterar.setMinimumSize(new java.awt.Dimension(92, 26));
+        BAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BalterarActionPerformed(evt);
+                BAlterarActionPerformed(evt);
             }
         });
 
@@ -255,16 +255,16 @@ public class JFEmpresas extends javax.swing.JFrame {
         BInicio.setMaximumSize(new java.awt.Dimension(92, 26));
         BInicio.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        Bdeletar.setText("Deletar");
-        Bdeletar.setMaximumSize(new java.awt.Dimension(92, 26));
-        Bdeletar.setMinimumSize(new java.awt.Dimension(92, 26));
+        BDeletar.setText("Deletar");
+        BDeletar.setMaximumSize(new java.awt.Dimension(92, 26));
+        BDeletar.setMinimumSize(new java.awt.Dimension(92, 26));
 
-        Bsair.setText("Sair");
-        Bsair.setMaximumSize(new java.awt.Dimension(92, 26));
-        Bsair.setMinimumSize(new java.awt.Dimension(92, 26));
-        Bsair.addActionListener(new java.awt.event.ActionListener() {
+        BSair.setText("Sair");
+        BSair.setMaximumSize(new java.awt.Dimension(92, 26));
+        BSair.setMinimumSize(new java.awt.Dimension(92, 26));
+        BSair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BsairActionPerformed(evt);
+                BSairActionPerformed(evt);
             }
         });
 
@@ -286,13 +286,13 @@ public class JFEmpresas extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(BGravar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Balterar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Bpesquesar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BPesquesar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Bdeletar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BDeletar, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52)
-                .addComponent(Bsair, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BSair, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -306,10 +306,10 @@ public class JFEmpresas extends javax.swing.JFrame {
                     .addComponent(BFim, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(BNovo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(BGravar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Balterar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Bpesquesar)
-                    .addComponent(Bdeletar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Bsair, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(BAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BPesquesar)
+                    .addComponent(BDeletar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BSair, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -350,22 +350,22 @@ public class JFEmpresas extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BsairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BsairActionPerformed
+    private void BSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BSairActionPerformed
         // TODO add your handling code here:
         System.exit(0);
-    }//GEN-LAST:event_BsairActionPerformed
+    }//GEN-LAST:event_BSairActionPerformed
 
-    private void BalterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BalterarActionPerformed
+    private void BAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BAlterarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BalterarActionPerformed
+    }//GEN-LAST:event_BAlterarActionPerformed
 
     private void BNovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BNovoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_BNovoActionPerformed
 
-    private void BpesquesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BpesquesarActionPerformed
+    private void BPesquesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BPesquesarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BpesquesarActionPerformed
+    }//GEN-LAST:event_BPesquesarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -420,16 +420,16 @@ public class JFEmpresas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BAlterar;
     private javax.swing.JButton BAnterior;
+    private javax.swing.JButton BDeletar;
     private javax.swing.JButton BFim;
     private javax.swing.JButton BGravar;
     private javax.swing.JButton BInicio;
     private javax.swing.JButton BNovo;
+    private javax.swing.JButton BPesquesar;
     private javax.swing.JButton BProximo;
-    private javax.swing.JButton Balterar;
-    private javax.swing.JButton Bdeletar;
-    private javax.swing.JButton Bpesquesar;
-    private javax.swing.JButton Bsair;
+    private javax.swing.JButton BSair;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
